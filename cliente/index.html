@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta com Nutricionista</title>
+</head>
+<body>
+    <center>
+        <h1>Novas consultas</h1>
+        <form action="http://127.0.0.1:3000" method="post">
+            <input type="number" placeholder="Identidade" name="id"required><br></br>
+            <input type="text" placeholder="Nome do paciente" name="nome"required><br></br>
+            <input type="number" placeholder="Peso em kg" name="peso"required step="0.01"><br></br>
+            <input type="number" placeholder="Altura" name="altura"required step="0.01"><br></br>
+            <input type="date" placeholder="Data da consulta" name="data"required><br></br>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+        </br>
+        </form>
+    </center>
+    
+</body>
+</html>
